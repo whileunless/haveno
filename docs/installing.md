@@ -4,11 +4,15 @@ These are the steps needed to build Haveno and test it on our test network or lo
 
 ## Install dependencies
 
-On Linux and macOS, install Java JDK 21:
+On Linux and macOS, install Java JDK 21 by running either:
 
 ```
 curl -s "https://get.sdkman.io" | bash
 sdk install java 21.0.2.fx-librca
+```
+or when using a Debian-based system:
+```
+apt install openjdk-21-jre
 ```
 
 On Windows, install MSYS2 and Java JDK 21:
